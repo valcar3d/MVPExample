@@ -20,7 +20,7 @@ public class MainActivityView extends AppCompatActivity implements AlCuadrado.Vi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         tvResultado = findViewById(R.id.tvResultado);
         etNumero = findViewById(R.id.etNumero);
         presenter = new AlCuadradoPresenter(this);
